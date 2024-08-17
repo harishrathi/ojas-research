@@ -6,7 +6,7 @@
     position: sticky;
     width: 100%;
     box-shadow: 0px 3px 5px rgb(177, 176, 176);
-    
+
     z-index: 1;
 }
 .img img{
@@ -15,10 +15,10 @@
     margin: 0.2em 0.2em;
 }
 #heading{
-    
+
     font-size: 1em;
     font-weight: 900;
-    margin : 0.2em 0.1em; 
+    margin : 0.2em 0.1em;
 }
 .navbar{
     margin: auto;
@@ -30,8 +30,8 @@
     text-decoration: none;
      color: black;
      padding: 8px 3px;
-     font-size: 0.4rem; 
-     margin: 0px 3px;  
+     font-size: 0.4rem;
+     margin: 0px 3px;
 }
 .navicon{
     padding: 0px 2px;
@@ -44,7 +44,7 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    
+
 }
 .bigtext p{
     position: absolute;
@@ -54,7 +54,7 @@
     font-weight: bolder;
     color: #357898;
     z-index: -1;
-    
+
 }
 .aboutsection{
     padding-top: 5rem;
@@ -75,18 +75,18 @@
     justify-content: center;
     margin: auto;
     flex-direction: column;
-    
+
 }
 .boxes h2{
     font-size: 0.7rem;
     margin: 1em;
     text-align: center;
 }
-.box{ 
+.box{
     width: 15em;
     /* border: 2px solid brown; */
     margin: 1rem auto;
- 
+
 }
 .box img{
     display: block;
@@ -119,7 +119,7 @@
     margin: 1EM;
 }
 .serviceimg {
-    display: flex;    
+    display: flex;
 }
 .serviceleft h2{
     text-align: left;
@@ -155,7 +155,7 @@
 .Name{
     margin: 0.7em 0.3em;
     font-size: 1.2rem;
-    
+
 }
 
 /* Number section */
@@ -163,7 +163,7 @@
     padding-top: 2em;
 }
 .numbersection{
-    
+
     display: flex;
     flex-direction: column;
     background-color: #2196F3;
@@ -171,7 +171,7 @@
 }
 .block{
     margin: 1em auto;
-    
+
 }
 
 /* Hospitals */
@@ -180,25 +180,24 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+
 }
 .Hospitalssection h1{
     font-size: 1rem;
     margin: 0.5em 0em;
-    
-    
+
+
 }
 .Hospitalssection p{
     font-size: 0.8rem;
     margin: 0.3em 0em;
-    
-    
 }
+
 .hcontainer{
     display: flex;
     flex-direction: column;
     padding: 1em;
-    
+
 }
 .himage{
    display: flex;
@@ -207,7 +206,7 @@
     margin: auto;
     display: flex;
     padding: 0em 0em;
-    
+
 }
 
 .himage img{
@@ -217,7 +216,7 @@
     margin: auto;
 }
 .hcontainer ul{
-    
+
     padding: 1em;
 }
 .hcontainer ul li{
@@ -234,7 +233,7 @@
 .ourstrength{
     padding: 2em 1em;
     background-color: #87CEEB;
-    
+
 }
 .ourstrength h1{
     display: block;
@@ -244,7 +243,7 @@
 .strengthlist{
     display: flex;
     flex-direction: column;
-    
+
 }
 .listblock ul li{
     font-size: 0.7rem;
@@ -256,12 +255,12 @@
 }
 .listblock{
     width: 90%;
-    margin: 0em auto; 
-    
+    margin: 0em auto;
+
 }
 /* Studies */
 .studies{
-    padding-top: 6em; 
+    padding-top: 6em;
 }
 .studiesinfo{
     display: flex;
@@ -269,14 +268,14 @@
 }
 .listblockcontainer{
     display: flex;
-    
+
 }
 .stdlist{
     width: 90%;
     margin: 1em auto;
 }
 .ulblock{
-    
+
     padding: 0em;
     margin: 1em 1em;
     margin-left: 3em;
@@ -294,7 +293,7 @@
     margin: 1em 0em;
     font-size: 0.6rem;
     text-align: center;
-    
+
 }
 .stdimg{
  display: flex;
@@ -315,12 +314,12 @@
     font-size: 1rem;
 }
 .details{
-    
+
     display: flex;
     align-items: center;
     font-size: 0.5rem;
     margin: 2em 2em;
-    
+
 }
 .details img{
     width: 0.8em;
