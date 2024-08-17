@@ -26,3 +26,25 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.firstsection {
+    position: relative;
+    width: 100%;
+}
+
+.banner img {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.bigtext p {
+    position: absolute;
+    top: 6.5em;
+    font-size: 50px;
+    margin: 1em 1em;
+    font-weight: bolder;
+    color: #357898;
+    z-index: -1;
+}

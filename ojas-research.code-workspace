@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/.angular": true
+        },
         "editor.formatOnSave": true
     }
 }

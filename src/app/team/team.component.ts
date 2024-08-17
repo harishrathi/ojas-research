@@ -13,6 +13,10 @@ export class TeamComponent {
         const element = document.getElementById(id);
         if (element == null)
             return;
+        if (element.style.height == "") {
+            element.style.height = 'auto';
+            return;
+        }
         element.style.height = element.style.height !== '6em'
             ? '6em' : 'auto';
     }
