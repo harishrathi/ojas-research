@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AboutComponent } from '../about/about.component';
-import { ServicesComponent } from '../services/services.component';
+import { ServicesComponent } from '../srv-component/services.component';
 import { TeamComponent } from '../team/team.component';
 import { AchivementsComponent } from '../achivements/achivements.component';
 import { ContactComponent } from '../contact/contact.component';
