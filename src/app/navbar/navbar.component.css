@@ -1,0 +1,39 @@
+#heading {
+    font-size: 1.3em;
+    font-weight: 900;
+    margin: 0.9em 0.3em;
+}
+
+.navbar {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navicon {
+    padding: 0px 8px;
+    width: 0.8em;
+}
+
+.navbar ul li {
+    display: flex;
+    list-style: none;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.navbar ul li a:hover {
+    background-color: grey;
+}
+
+.navbar ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 0.7rem;
+}

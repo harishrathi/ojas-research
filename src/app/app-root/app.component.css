@@ -1,0 +1,28 @@
+.btntotop img {
+    margin-right: 4px;
+    width: 1em;
+}
+
+.btntop {
+    display: flex;
+    padding: 2em 0em;
+}
+
+.btntop a {
+    font-size: 0.8rem;
+    text-align: center;
+    border: 0px;
+    margin: 2em auto;
+    padding: 1.1em 1.5em;
+    justify-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: #87ceeb;
+}
+
+.btntotop:hover {
+    color: black;
+    background-color: rgb(156, 156, 156);
+    cursor: pointer;
+    font-weight: bold;
+}

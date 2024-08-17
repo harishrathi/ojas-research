@@ -1,0 +1,44 @@
+.studies {
+    padding: 110px 0px;
+}
+
+.studies h1 {
+    margin: 1em 0em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.studies p {
+    margin: 1em 0em;
+    text-align: center;
+}
+
+.studiesinfo {
+    display: flex;
+    width: 100%;
+}
+
+.listcontainer {
+    display: flex;
+    margin: auto;
+}
+
+.stdlist {
+    width: 100%;
+    margin: 1em auto;
+}
+
+.ulblock {
+    margin-left: 3em;
+}
+
+.ulblock li {
+    font-size: 0.8rem;
+    line-height: 2em;
+}
+
+.stdimg img {
+    width: 35em;
+    margin: 1em 1em;
+    border-radius: 10px;
+}

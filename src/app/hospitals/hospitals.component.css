@@ -1,0 +1,34 @@
+.Hospitalssection {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Hospitalssection h1 {
+    font-size: 1.3rem;
+    margin: 1.2em 0em;
+}
+
+.hcontainer {
+    display: flex;
+    padding: 1em;
+}
+
+.himage img {
+    width: 35em;
+    border-radius: 10px;
+}
+
+.blockm {
+    margin: auto;
+    display: flex;
+    padding: 0em 2em;
+}
+
+.hcontainer ul li {
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 2em;
+    font-weight: bold;
+}

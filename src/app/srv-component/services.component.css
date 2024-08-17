@@ -1,0 +1,52 @@
+.servicesection {
+    padding: 5em 1.5em;
+    display: flex;
+
+    background-color: #87ceeb !important;
+}
+
+.serviceleft {
+    margin: 1em;
+}
+
+.serviceleft h2 {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+.serviceleft ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.9rem;
+    line-height: 2em;
+}
+
+.serviceleft button {
+    display: flex;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 0px;
+    margin: 2em 0em;
+    padding: 1.1em;
+    justify-items: center;
+}
+
+.serviceleft button:hover {
+    color: black;
+    background-color: rgb(156, 156, 156);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btnicon {
+    width: 0.7em;
+    margin: 2px 10px 0px 2px;
+}
+
+.serviceimg img {
+    width: 33em;
+    border-radius: 0.5em;
+}

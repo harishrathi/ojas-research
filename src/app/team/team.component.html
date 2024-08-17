@@ -3,21 +3,21 @@
     <div class="cards">
         <div class="card">
             <img src="img/team1.jpg" alt="">
-            <span class="Name">Dr (Major) Sachin Mane</span>
-            <span class="subtext">Founder & Director Medical Operations</span>
+            <span class="name">Dr (Major) Sachin Mane</span>
+            <span class="subtext">Founder & Director - Medical Operations</span>
             <div class="info" id="info_team1">
                 <p class="cardpara">Healthcare professional with 22 year's experience in various operational areas
                     of hospitals including Clinical Research. He has worked in Senior Leadership Roles for
                     India’shealthcare providers like Wockhardt Hospitals and Sahyadri Hospitals.
                 </p>
             </div>
-            <button type="button" id="more_team1">Read More</button>
+            <button type="button" id="more_team1" (click)="onMoreClick('info_team1')">Read More</button>
         </div>
 
         <div class="card">
             <img src="img/team2.jpg" alt="">
-            <span class="Name">Mr Deepak Bagde</span>
-            <span class="subtext">Founder & Director Operations</span>
+            <span class="name">Mr Deepak Bagde</span>
+            <span class="subtext">Founder & Director - Operations</span>
             <div class="info" id="info_team2">
                 <p class="cardpara">With 11 year's experience in healthcare and hospital administration, he has
                     executed
@@ -27,76 +27,22 @@
                     extensively
                     in the development of new molecules for Phase I and Phase II studies.</p>
             </div>
-            <button type="button" id="more_team2">Read More</button>
+            <button type="button" id="more_team2" (click)="onMoreClick('info_team2')">Read More</button>
         </div>
         <div class="card">
-            <img src="img/team3.png" alt="">
-            <span class="Name">Dr Smita Mane</span>
-            <span class="subtext">Founder & Director Corporate Communication</span>
-            <div id="card4" class="info">
-                <p class="cardpara">Dr Smita Mane is a medical professional with rich experience of clinical studies and trials especially in vaccine and paediatric vaccine trials. After finishing her medical degree, she worked in various capacities as a doctor in hospitals. She stood second in Pune universities CRCDM course. Dr Smita has deep experience in vaccine studies and has personally worked in more than 30 vaccine studies of national and multinational pharma and biotech companies. After working for 10 long years in research department of  Bharati hospital and medical Research centre's, medical college Hospital with more than 1000 beds, she is in charge of our vaccine program and responsible for delivering data quality to the sponsors./p>
+            <img src="img/leena.jpeg" alt="">
+            <span class="name">Leena Rathi</span>
+            <span class="subtext">Founder & Managing Director</span>
+            <div class="info" id="info_team3">
+                <p class="cardpara">Dr Smita Mane is a medical professional with rich experience of clinical studies and
+                    trials especially in vaccine and paediatric vaccine trials. After finishing her medical degree,
+                    she worked in various capacities as a doctor in hospitals. She stood second in Pune universities CRCDM course.
+                    Dr Smita has deep experience in vaccine studies and has personally worked in more than 30 vaccine studies of national
+                    and multinational pharma and biotech companies. After working for 10 long years in research department of
+                    Bharati hospital and medical Research centre's, medical college Hospital with more than 1000 beds,
+                    she is in charge of our vaccine program and responsible for delivering data quality to the sponsors.</p>
             </div>
-            <button type="button" id="more_team3">Read More</button>
+            <button type="button" id="more_team3" (click)="onMoreClick('info_team3')">Read More</button>
         </div>
     </div>
 </section>
-<script>
-    // Get references to the button and the hidden text element
-    var more_team1 = document.getElementById('more_team1');
-    var info_team1 = document.getElementById('info_team1');
-    var index_info_team1 = 0
-    // Add a click event listener to the button
-    more_team1.addEventListener('click', function () {
-        // console.log("more clicked")
-        // Check the current display property of the hidden text
-        // console.log("index_info_team1 >>",index_info_team1)
-        if (info_team1.style.height != '6em' && index_info_team1 > 0 ) {
-            // If it's hidden, show it
-            info_team1.style.height = '6em';
-            index_info_team1=index_info_team1 + 1
-        } else {
-            // If it's visible, hide it
-            info_team1.style.height = 'auto';
-            index_info_team1=index_info_team1 + 1
-        }
-    });
-
-    var more_team2 = document.getElementById('more_team2');
-    var info_team2 = document.getElementById('info_team2');
-    var index_info_team2 = 0
-
-    // Add a click event listener to the button
-    more_team2.addEventListener('click', function () {
-        // console.log("more clicked")
-        // Check the current display property of the hidden text
-        if (info_team2.style.height != '6em' && index_info_team2 > 0) {
-            // If it's hidden, show it
-            info_team2.style.height = '6em';
-            index_info_team2=index_info_team2 + 1
-        } else {
-            // If it's visible, hide it
-            info_team2.style.height = 'auto';
-            index_info_team2=index_info_team2 + 1
-        }
-    });
-
-    var more_team3 = document.getElementById('more_team3');
-    var card4 = document.getElementById('card4');
-    var index_info_team3 = 0
-
-    // Add a click event listener to the button
-    more_team3.addEventListener('click', function () {
-        // console.log("more clicked")
-        // Check the current display property of the hidden text
-        if (card4.style.height != '6em' && index_info_team3 > 0) {
-            // If it's hidden, show it
-            card4.style.height = '6em';
-            index_info_team3=index_info_team3 + 1
-        } else {
-            // If it's visible, hide it
-            card4.style.height = 'auto';
-            index_info_team3=index_info_team3 + 1
-        }
-    });
-
-</script>

@@ -1,0 +1,21 @@
+.contactsection {
+    background-color: #87ceeb;
+    padding: 4em 0em;
+}
+
+.contactsection h1 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 2em 2em;
+}
+
+.details img {
+    width: 1.3em;
+    margin: 0em 1em;
+}

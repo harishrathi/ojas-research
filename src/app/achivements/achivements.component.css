@@ -1,0 +1,31 @@
+.numsectionmain {
+    padding-top: 5em;
+}
+
+.numbersection {
+    display: flex;
+    background-color: #2196f3;
+    width: 100%;
+}
+
+.block {
+    margin: 3.3em auto;
+}
+
+.block span {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.num {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 0.5em auto;
+    letter-spacing: 2px;
+}
+
+.numtext {
+    font-size: 0.9em;
+    font-weight: 500;
+}

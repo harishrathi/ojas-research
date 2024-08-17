@@ -1,0 +1,32 @@
+.strenghtsmain {
+    padding-top: 6em;
+}
+
+.ourstrength {
+    padding: 3em 2em;
+    background-color: #87ceeb;
+}
+
+.ourstrength h1 {
+    display: block;
+    margin: 1em 0em;
+    font-size: 1.5rem;
+}
+
+.strengthlist {
+    display: flex;
+    margin: auto;
+}
+
+.listblock {
+    width: 40%;
+    margin: 0em auto;
+}
+
+/* .strlist{
+      width: 100%;
+  } */
+.listblock ul li {
+    font-size: 0.8rem;
+    line-height: 2em;
+}
